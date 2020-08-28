@@ -63,15 +63,19 @@ Dataset yang digunakan berasal dari [kaggle](https://www.kaggle.com/mirichoi0218
 ## Exploratory Data Analysis
 
 ![age](storage/scatterplotage.png)
+
 Semakin tua usia, semakin bertambah besar chargesnya, diperparah dengan faktor perokok
 
 ![bmi](storage/scatterplotbmi.png)
+
 Bagi seorang perokok, BMI memengaruhi besar charges nasabah
 
 ![children](storage/scatterplotchildren.png)
+
 Nasabah yang bukan perokok, tidak memengaruhi jumlah/banyak anak yang ia tanggung
 
 ![violin](storage/violinplot.png)
+
 Persebaran datanya menunjukkan jika nasabah berjenis kelamin laki-laki / male dan merokok / smoker memang memiliki charges yang lebih tinggi
 
 ### Feature Engineering
@@ -99,6 +103,7 @@ Dilakukan drop column 'region' dikarenakan di Indonesia tidak ada perbedaan besa
 - XGBoostRegressor
 
 Berikut hasil evaluation metrics setiap algoritma:
+
 ![model](storage/evaluation-model.png)
 
 **Data Description:**
