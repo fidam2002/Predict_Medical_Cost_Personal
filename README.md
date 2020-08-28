@@ -3,23 +3,11 @@
 
 #
 
-### About
-**Asuransi** adalah pertanggungan atau perjanjian antara dua belah pihak, di mana pihak satu berkewajiban membayar iuran/kontribusi/premi.
-
-**Asuransi kesehatan** adalah sebuah jenis produk asuransi yang secara khusus menjamin biaya kesehatan atau perawatan para anggota asuransi tersebut jika mereka jatuh sakit atau mengalami kecelakaan
-
-Keuntungan asuransi kesehatan:
-- Tidak perlu khawatir saat penyakit tiba-tiba datang
-- Pencegahan penyakit --> imunisasi, skrining kanker
-- Membantu mengatur keuangan
-- Mengurangi risiko kerugian
-
 ### Problem
 - Asuransi kesehatan biayanya mahal
 - Di Indonesia, adanya BPJS Kesehatan
 
 ### Background
-Kesadaran berasuransi yang masih minim boleh jadi dipengaruhi oleh banyaknya pemahaman yang keliru tentang asuransi.
 
 Berikut ini beberapa pandangan yang keliru tentang asuransi kesehatan yang banyak beredar di masyarakat:
 - Beli asuransi kesehatan sama saja buang-buang uang
