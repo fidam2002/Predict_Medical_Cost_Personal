@@ -76,6 +76,7 @@ Persebaran datanya menunjukkan jika nasabah berjenis kelamin laki-laki / male da
 
 ### Feature Engineering
 Dataset setelah dilakukan feature engineering
+
 ![headclean](storage/headclean.png)
 
 Dilakukan drop column 'region' dikarenakan di Indonesia tidak ada perbedaan besar charges untuk setiap daerah
