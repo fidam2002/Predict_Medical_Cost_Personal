@@ -16,7 +16,7 @@ Berikut ini beberapa pandangan yang keliru tentang asuransi kesehatan yang banya
 - Asuransi kesehatan biayanya mahal
 - BPJS Kesehatan sudah memadai
 
-Biaya premi pada setiap pasien berbeda-beda. Biaya tersebut tergantung pada banyak faktor, antara lain diagnosis penyakit, jenis/tempat perawatan, kota, usia, dan sebagainya.
+Biaya premi pada setiap pasien berbeda-beda. Biaya tersebut tergantung pada banyak faktor, antara lain diagnosis penyakit, jenis/tempat perawatan, usia, dan sebagainya.
 
 **Sekedar informasi:**
 - Makin tua umur nasabah maka preminya akan semakin mahal.
