@@ -1,0 +1,32 @@
+{% extends 'index.html' %}
+
+{% block content %}
+<center>
+    <div class="p1">
+        <b>Input Success!</b>
+    </div>
+    <br>
+    <div class="container"  >
+        <b>Age: </b> {{age}}<br><br>
+        <b>Sex: </b> {{sex}}<br><br>
+        <b>Height: </b> {{height}}<br><br>
+        <b>Weight: </b> {{weight}}<br><br>
+        <b>BMI: </b>  {{bmi}}<br><br>
+        <b>Children: </b> {{children}}<br><br>
+        <b>Smoker:</b> {{smoker}}<br><br>
+        <b>Charges:</b> {{charges}} <br><br>
+    </div>
+    <hr>
+    <a href="/db_fn" target="_self" >
+        <button style="background-color: salmon; color: whitesmoke" class="btn btn-light">
+            Input Again
+        </button>    
+    </a>
+    <a href="/" target="_self" >
+        <button style="background-color: salmon; color: whitesmoke" class="btn btn-light">
+            Back to Home
+        </button>    
+    </a>
+</center>
+
+{% endblock %}

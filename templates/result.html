@@ -1,0 +1,31 @@
+{% extends 'index.html' %} {% block content %}
+<center>
+    <div class="p1">
+        <b>Prediction Result</b>
+    </div>
+    <br>
+    <div class="container">
+        <b>Age: </b> {{age}}<br><br>
+        <b>Sex: </b> {{sex}}<br><br>
+        <b>Height: </b> {{height}}<br><br>
+        <b>Weight: </b> {{weight}}<br><br>
+        <b>BMI: </b>  {{bmi}}<br><br>
+        <b>Children: </b> {{children}}<br><br>
+        <b>Smoker:</b> {{smoker}}<br><br>
+        <b>Prediction (in 1 year): </b><br> <br/>
+        <h4>$ {{insurance_pred}}</h4>
+    </div>
+    <hr>
+    <a href="/pred_lr" target="_self">
+        <button style="background-color: salmon; color: whitesmoke" class="btn btn-light">
+            Predict Again
+        </button>
+    </a>
+    <a href="/" target="_self">
+        <button style="background-color: salmon; color: whitesmoke" class="btn btn-light">
+            Back to Home
+        </button>
+    </a>
+</center>
+
+{% endblock %}

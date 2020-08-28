@@ -1,0 +1,70 @@
+{% extends 'index.html' %} {% block content %}
+<center>
+    <p><b>Table</b></p>
+
+    <div class='table table-bordered table-sm table-light' style='overflow: auto; height: 200px; width: 35%; margin:0 auto'>
+        <table>
+            <th>
+                <td>age</td>
+                <td>sex</td>
+                <td>bmi</td>
+                <td>children</td>
+                <td>smoker</td>
+                <td>charges</td>
+            </th>
+            {% for item in data %}
+            <tr>
+                <td>*</td>
+                <td>{{item[0]}}</td>
+                <td>{{item[1]}}</td>
+                <td>{{item[2]}}</td>
+                <td>{{item[3]}}</td>
+                <td>{{item[4]}}</td>
+                <td>{{item[5]}}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </div>
+
+    <form method="POST" action="http://localhost:5000/pred_result">
+        <br>
+        <p><b>Prediction</b></p>
+        <div class="input-group mb-3" style="width: 500px">
+            <span class="input-group-text" style="width: 150px">Age:</span>
+                <input name="age" type="number" step="1" style="width: 350px" class="form-control" required=True/>
+            </div>
+            <div class="input-group mb-3" style="width: 500px">
+            <span class="input-group-text" style="width: 150px">Sex:</span>    
+            <select name="sex" style="width: 350px" class="form-control" required="required">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option disabled selected hidden>Choose One</option>
+            </select>
+            </div>
+            <div class="input-group mb-3" style="width: 500px">
+            <span class="input-group-text" style="width: 150px">Height (in cm):</span>
+                <input type="number" name="height" step="0.01" style="width: 350px" id="totalAmt" class="form-control" required=True/> 
+            </div>
+            <div class="input-group mb-3" style="width: 500px">
+            <span class="input-group-text" style="width: 150px">Weight (in kg):</span>
+                <input type="number" name="weight" step="0.01" style="width: 350px" id="totalAmt" class="form-control" required=True/> 
+            </div>
+            <div class="input-group mb-3" style="width: 500px">
+            <span class="input-group-text" style="width: 150px">No. of Children:</span>
+                <input type="number" name="children" step="1" style="width: 350px" id="totalAmt" class="form-control" required=True/> 
+            </div>
+            <div class="input-group mb-3" style="width: 500px">
+            <span class="input-group-text" style="width: 150px">Smoking Habit:</span>    
+            <select name="smoker" style="width: 350px" class="form-control" required="required">
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+                <option disabled selected hidden>Choose One</option>
+            </select>
+            </div>
+        <br>
+        <button type="submit" style="background-color: salmon; color: whitesmoke" class="btn btn-info">Predict</button>
+    </form>
+    <br>
+</center>
+
+{% endblock %}
