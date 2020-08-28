@@ -41,7 +41,7 @@ Dapat memprediksi keterjangkauan seberapa besar biaya asuransi yang layak dibaya
 
 #
 ## Dataset
-#
+
 Dataset yang digunakan berasal dari [kaggle](https://www.kaggle.com/mirichoi0218/insurance)
 
 ![head](storage/head.png)
@@ -61,7 +61,7 @@ Dataset yang digunakan berasal dari [kaggle](https://www.kaggle.com/mirichoi0218
 
 #
 ## Exploratory Data Analysis
-#
+
 ![age](storage/scatterplotage.png)
 Semakin tua usia, semakin bertambah besar chargesnya, diperparah dengan faktor perokok
 
@@ -91,7 +91,7 @@ Dilakukan drop column 'region' dikarenakan di Indonesia tidak ada perbedaan besa
 
 #
 ## Modelling Machine Learning
-#
+
 **Algoritma yang digunakan adalah:**
 - LinearRegression
 - ElasticNet
@@ -113,7 +113,7 @@ Berikut hasil evaluation metrics setiap algoritma:
 
 #
 ## Dashboard
-#
+
 **Plot**
 ![histobox](storage/Histogram&Boxplot.png)
 
