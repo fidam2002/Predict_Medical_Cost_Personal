@@ -37,7 +37,7 @@ Biaya premi pada setiap pasien berbeda-beda. Biaya tersebut tergantung pada bany
 - Sementara itu, orang yang memiliki kelebihan berat badan juga akan membayar premi lebih mahal daripada orang yang memiliki berat badan normal.
 
 ### Goals
-Dapat memprediksi keterjangkauan seberapa besar biaya asuransi yang layak dibayar nasabah / pasien dalam satu tahun
+Dapat memprediksi seberapa besar biaya asuransi kesehatan yang layak dibayar nasabah / pasien dalam satu tahun berdasarkan usia, gender,  BMI, banyak anak yang ditanggung, dan perokok atau tidak
 
 #
 ## Dataset
